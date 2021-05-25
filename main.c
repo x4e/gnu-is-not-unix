@@ -8,6 +8,8 @@ int main() {
 	while (1) {
 		fwrite(notUnix, sizeof(char), sizeof(notUnix) - 1, stdout);
 	}
+	
 	// If we are here then we have solved the mystery of the universe
+	fwrite("\n", sizeof(char), 1, stdout);
 	return 0;
 }
